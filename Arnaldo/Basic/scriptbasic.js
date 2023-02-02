@@ -1,14 +1,10 @@
 // Basic
 // ex 1 | Temperature v1.0
 
-let temp = Math.floor(Math.random() * 11);
+let temp = Math.round(Math.random()) * 26 - 31;
 console.log(temp);
-if (temp < -10) {
-    console.log("Very Cold");
-} else if (temp < 10) {
-    console.log("Cold");
-} else if (temp < 20) {
-    console.log("ok");
+if (temp < -5) {
+    console.log("The weather is cold");
 } else {
-    console.log("Hot");
+    console.log("The weather is moderate");
 }
