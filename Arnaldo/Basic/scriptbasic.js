@@ -22,3 +22,11 @@ function crystalGlazer(job, Location, partners_Name, Children) {
 }
 crystalGlazer("dentist", "Italy", "Julia", 4);
 crystalGlazer("doctor", "Malta", "Joanna", 2)
+
+// ex 4 | Age Calculator
+let age = ageCalc(2023, 1994)
+
+function ageCalc(currentYear, birthYear) { return currentYear - birthYear; }
+console.log(`You are either ${age} or ${age-1} years old.`)
+
+ex 5
