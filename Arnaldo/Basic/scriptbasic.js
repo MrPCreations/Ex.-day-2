@@ -3,10 +3,15 @@
 
 let temp = Math.floor(Math.random() * 31 - 5);
 console.log(temp);
-if (temp < -5) {
+if (temp < 11) {
     console.log("The weather is cold");
 } else {
     console.log("The weather is moderate");
 }
 
 // ex 2 | Random Food
+let random = Math.floor(Math.random() * 4);
+let food = ["pizza", "hamburger", "ice cream", "chocolate"];
+console.log("The Meal of the Day is " + food[random]);
+
+// ex 3 | Crystal Gazer
