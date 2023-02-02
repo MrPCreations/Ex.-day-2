@@ -32,10 +32,20 @@ console.log(`You are either ${age} or ${age-1} years old.`)
 // ex 5 | Age Calculator-improved
 let age1 = ageCalc(2023, 1994)
 
-function ageCalc1(currentYear, birthYear) { return currentYear - birthYear; }
-console.log(`You are either ${age} or ${age-1} years old.`)
-let date = new Date();
-console.log(date.getFullYear());
+function ageCalc1(birthYear) {
+    let date = new Date();
+    let current = date.getFullYear();
+    let age = current - birthYear;
+    let age2 = age - 1
+    console.log(`You are either ${age} or ${age2} years old.`)
+}
+ageCalc1(1990)
 
-
-ex 6 | Degree - Radian Conversion
+// ex 6 | Degree - Radian Conversion
+function degreesToRadians(degrees) {
+    let result = (degrees * 3.14159265359 / 180);
+    console.log(result);
+    return result;
+}
+let degrees = degreesToRadians(90);
+console.log(degrees + " radians")
