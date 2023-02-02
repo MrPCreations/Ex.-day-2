@@ -29,4 +29,13 @@ let age = ageCalc(2023, 1994)
 function ageCalc(currentYear, birthYear) { return currentYear - birthYear; }
 console.log(`You are either ${age} or ${age-1} years old.`)
 
-ex 5
+// ex 5 | Age Calculator-improved
+let age1 = ageCalc(2023, 1994)
+
+function ageCalc1(currentYear, birthYear) { return currentYear - birthYear; }
+console.log(`You are either ${age} or ${age-1} years old.`)
+let date = new Date();
+console.log(date.getFullYear());
+
+
+ex 6 | Degree - Radian Conversion
